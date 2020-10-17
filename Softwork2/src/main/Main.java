@@ -46,12 +46,12 @@ public class Main implements Main_Interface{
 		return stu;
 	}
 	@Override
-	public int findnumber(String num) {
+	public float[] findnumber(String num) {
 		// TODO Auto-generated method stub
 		return find.findnumber(num, stu);
 	}
 	@Override
-	public int findname(String name) {
+	public float[] findname(String name) {
 		// TODO Auto-generated method stub
 		return find.findname(name, stu);
 	}
